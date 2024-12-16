@@ -1,0 +1,615 @@
+.container {
+  max-width: 1140px !important; }
+
+body {
+  background-image: url("../images/designer_1.png");
+  height: 100vh;
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #37447e;
+  font-family: Roboto; }
+
+.btn {
+  width: 200px;
+  font-weight: 500;
+  padding: 4px 0px;
+  background-color: #111b47;
+  color: #f2f2f2;
+  border-radius: 2px;
+  transition: all 0.5s ease; }
+
+.btn:hover {
+  background-color: #1a296c;
+  color: #f2f2f2;
+  box-shadow: none; }
+
+.section-one {
+  top: 0;
+  padding: 18px 0; }
+  .section-one .navbar {
+    padding-top: 0;
+    padding-bottom: 0; }
+    .section-one .navbar .navbar-collapse {
+      justify-content: space-between; }
+      .section-one .navbar .navbar-collapse .landing h3 {
+        margin: 0;
+        font-family: Roboto;
+        font-size: 26px;
+        font-weight: 900;
+        line-height: 38px; }
+      .section-one .navbar .navbar-collapse .navbar-nav {
+        gap: 60px; }
+        .section-one .navbar .navbar-collapse .navbar-nav .nav-link {
+          padding: 0;
+          color: #505f98;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24px;
+          transition: all 0.7s ease; }
+        .section-one .navbar .navbar-collapse .navbar-nav .nav-link:hover {
+          color: #091133;
+          font-weight: bold; }
+    .section-one .navbar .landingMobile {
+      display: none; }
+
+header .col-xl-6 {
+  margin-bottom: 495px; }
+  header .col-xl-6 .left-side {
+    margin-top: 200px; }
+    header .col-xl-6 .left-side .title {
+      font-weight: 500;
+      font-style: normal;
+      font-size: 50px;
+      color: #091133;
+      line-height: 66px;
+      letter-spacing: 1px;
+      margin-bottom: 20px; }
+    header .col-xl-6 .left-side .commitHeader {
+      color: #505f98;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      margin-bottom: 69px; }
+    header .col-xl-6 .left-side .buttons {
+      display: flex;
+      gap: 30px; }
+      header .col-xl-6 .left-side .buttons .learnMore {
+        background-color: transparent;
+        border: 2px solid #091133;
+        color: #091133; }
+        header .col-xl-6 .left-side .buttons .learnMore:hover {
+          background-color: #f3f6ff; }
+
+.section-three {
+  margin-bottom: 239px; }
+  .section-three .row .title {
+    margin-top: 50px;
+    margin-bottom: 16px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #091133; }
+  .section-three .row .commit {
+    color: #6f7cb2;
+    margin-bottom: 80px; }
+  .section-three .row .here .here-title {
+    color: #091133;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 14px;
+    margin-bottom: 6px; }
+  .section-three .row .here .here-commit {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #5d6970; }
+
+.section-four,
+.section-five,
+.section-six {
+  margin-bottom: 234px; }
+  .section-four .row,
+  .section-five .row,
+  .section-six .row {
+    justify-content: space-between; }
+    .section-four .row .title,
+    .section-five .row .title,
+    .section-six .row .title {
+      margin-top: 49px;
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 48px;
+      color: #091133;
+      margin-bottom: 16px; }
+    .section-four .row .commit,
+    .section-five .row .commit,
+    .section-six .row .commit {
+      line-height: 26px;
+      color: #6f7cb2; }
+    .section-four .row .btn,
+    .section-five .row .btn,
+    .section-six .row .btn {
+      margin-top: 40px; }
+
+.section-five .row .title {
+  margin-top: 80px; }
+
+.section-six {
+  margin-bottom: 0; }
+  .section-six .row .title {
+    margin-top: 0; }
+
+.section-seven {
+  background-image: url("../images/Rectangle.png");
+  width: 100%;
+  height: 80vh;
+  background-position: 50% 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 16px; }
+  .section-seven .seven-title .title {
+    margin-top: 237px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #091133;
+    margin-bottom: 16px; }
+  .section-seven .seven-title .commit {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #6f7cb2;
+    margin-bottom: 35px; }
+  .section-seven .price .money {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: #222f65; }
+  .section-seven .price .money-commit {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #37447e;
+    margin-bottom: 60px; }
+  .section-seven .buy .now {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #5d6970;
+    margin-bottom: 9px; }
+
+footer {
+  background-image: url("../images/footer.png");
+  width: 100%; }
+  footer .row .one {
+    margin-top: 61px;
+    margin-bottom: 40px; }
+    footer .row .one .year {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #939ea4; }
+    footer .row .one .landing {
+      font-size: 26px;
+      font-weight: 900;
+      line-height: 38px; }
+    footer .row .one .btn {
+      width: 109px;
+      height: 26px;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 18px; }
+  footer .row .two .footer-link a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #929ecc;
+    text-decoration: none;
+    margin-right: 60px;
+    transition: all 0.7s ease; }
+    footer .row .two .footer-link a:hover {
+      color: #091133;
+      font-weight: bold; }
+  footer .row .two .social img {
+    margin-left: 30px;
+    transition: all 0.6s ease; }
+    footer .row .two .social img:hover {
+      background-color: #929ecc;
+      opacity: 0.8; }
+  footer hr {
+    background-color: #091133;
+    height: 1px; }
+
+.hidden {
+  display: none; }
+
+.overflow {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px); }
+  .overflow .loader {
+    width: 70px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid #514b82;
+    animation: l20-1 0.8s infinite linear alternate, l20-2 1.6s infinite linear; }
+@keyframes l20-1 {
+  0% {
+    clip-path: polygon(50% 50%, 0 0, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%); }
+  12.5% {
+    clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 0%, 100% 0%, 100% 0%); }
+  25% {
+    clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 100%, 100% 100%, 100% 100%); }
+  50% {
+    clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%); }
+  62.5% {
+    clip-path: polygon(50% 50%, 100% 0, 100% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%); }
+  75% {
+    clip-path: polygon(50% 50%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 50% 100%, 0% 100%); }
+  100% {
+    clip-path: polygon(50% 50%, 50% 100%, 50% 100%, 50% 100%, 50% 100%, 50% 100%, 0% 100%); } }
+@keyframes l20-2 {
+  0% {
+    transform: scaleY(1) rotate(0deg); }
+  49.99% {
+    transform: scaleY(1) rotate(135deg); }
+  50% {
+    transform: scaleY(-1) rotate(0deg); }
+  100% {
+    transform: scaleY(-1) rotate(-135deg); } }
+@media (min-width: 156px) and (max-width: 576px) {
+  body {
+    background-position: 5% 15%;
+    background-size: contain; }
+
+  .btn {
+    width: 30%;
+    font-size: 12px; }
+
+  .section-one .navbar .navbar-toggler {
+    box-shadow: none; }
+  .section-one .navbar .landingMobile {
+    display: block; }
+    .section-one .navbar .landingMobile h3 {
+      font-size: 20px; }
+  .section-one .navbar .navbar-collapse {
+    justify-content: space-between;
+    text-align: center; }
+    .section-one .navbar .navbar-collapse .navbar-nav {
+      gap: 15px; }
+    .section-one .navbar .navbar-collapse .landing {
+      display: none; }
+  .section-one .modal button {
+    padding: 4px 25px; }
+
+  header .row .col-xl-6 {
+    margin-bottom: 30%; }
+    header .row .col-xl-6 .left-side {
+      margin-top: 50px; }
+      header .row .col-xl-6 .left-side .title {
+        font-size: 30px; }
+      header .row .col-xl-6 .left-side .commit {
+        font-size: 14px; }
+
+  .section-three {
+    margin-bottom: 150px;
+    text-align: center; }
+    .section-three .row .title {
+      font-size: 26px; }
+    .section-three .row .commit {
+      font-size: 12px; }
+    .section-three .row .here .here-title {
+      font-size: 16px; }
+    .section-three .row .here .here-commit {
+      font-size: 12px; }
+    .section-three .row .images img {
+      width: 60%; }
+
+  .section-four,
+  .section-five,
+  .section-six {
+    margin-bottom: 100px; }
+    .section-four .row,
+    .section-five .row,
+    .section-six .row {
+      text-align: center; }
+      .section-four .row .images img,
+      .section-five .row .images img,
+      .section-six .row .images img {
+        width: 50%; }
+      .section-four .row .title,
+      .section-five .row .title,
+      .section-six .row .title {
+        margin-top: 49px;
+        font-size: 26px; }
+      .section-four .row .commit,
+      .section-five .row .commit,
+      .section-six .row .commit {
+        font-size: 12px;
+        color: #6f7cb2; }
+      .section-four .row .btn,
+      .section-five .row .btn,
+      .section-six .row .btn {
+        margin-top: 40px; }
+
+  .section-six {
+    margin-bottom: 0; }
+
+  .section-seven {
+    height: 75vh;
+    background-position: center 60px;
+    margin-top: 0px; }
+    .section-seven .seven-title .title {
+      margin-top: 180px;
+      font-size: 26px;
+      margin-bottom: 10px; }
+    .section-seven .seven-title .commit {
+      font-size: 12px;
+      margin-bottom: 15px; }
+    .section-seven .price .money {
+      font-size: 30px;
+      line-height: 40px; }
+    .section-seven .price .money-commit {
+      font-size: 14px;
+      margin-bottom: 30px; }
+    .section-seven .buy .now {
+      font-size: 10px;
+      line-height: 15px; }
+    .section-seven .buy .btn {
+      width: 30%; }
+
+  footer .row .one {
+    align-items: center; }
+    footer .row .one .year {
+      font-size: 12px; }
+    footer .row .one .landing {
+      font-size: 20px; }
+  footer .row .two .footer-link a {
+    font-size: 12px;
+    margin-right: 15px; }
+  footer .row .two .social img {
+    margin-left: 7px; }
+  footer hr {
+    background-color: #091133;
+    height: 1px; } }
+@media (min-width: 576px) and (max-width: 800px) {
+  body {
+    background-position: left right;
+    background-size: cover; }
+
+  .btn {
+    width: 20%;
+    font-size: 12px; }
+
+  .section-one .navbar {
+    align-items: center; }
+    .section-one .navbar .navbar-toggler {
+      box-shadow: none; }
+    .section-one .navbar .landingMobile {
+      display: block; }
+      .section-one .navbar .landingMobile h3 {
+        font-size: 20px; }
+    .section-one .navbar .navbar-collapse {
+      justify-content: space-between;
+      text-align: center; }
+      .section-one .navbar .navbar-collapse .navbar-nav {
+        margin-left: 50px;
+        gap: 15px; }
+      .section-one .navbar .navbar-collapse .landing {
+        display: none; }
+      .section-one .navbar .navbar-collapse .btn-nav {
+        width: 150px; }
+  .section-one .modal button {
+    padding: 4px 25px; }
+
+  header .row .col-xl-6 {
+    margin-bottom: 40%; }
+    header .row .col-xl-6 .left-side {
+      margin-top: 30%; }
+      header .row .col-xl-6 .left-side .title {
+        font-size: 40px; }
+      header .row .col-xl-6 .left-side .commit {
+        width: 60%;
+        font-size: 14px; }
+
+  .section-three {
+    margin-bottom: 150px;
+    text-align: center; }
+    .section-three .row .title {
+      margin-top: 50px;
+      font-size: 36px; }
+    .section-three .row .commit {
+      font-size: 14px; }
+    .section-three .row .here .one-here {
+      margin-right: 40px; }
+    .section-three .row .images img {
+      width: 60%; }
+
+  .section-four,
+  .section-five,
+  .section-six {
+    margin-bottom: 100px; }
+    .section-four .row,
+    .section-five .row,
+    .section-six .row {
+      text-align: center; }
+      .section-four .row .images img,
+      .section-five .row .images img,
+      .section-six .row .images img {
+        width: 50%; }
+      .section-four .row .title,
+      .section-five .row .title,
+      .section-six .row .title {
+        margin-top: 49px;
+        font-size: 36px; }
+      .section-four .row .commit,
+      .section-five .row .commit,
+      .section-six .row .commit {
+        font-size: 14px; }
+      .section-four .row .btn,
+      .section-five .row .btn,
+      .section-six .row .btn {
+        margin-top: 40px; }
+
+  .section-seven {
+    height: 75vh;
+    background-position: center 60px;
+    margin-top: 0px; }
+    .section-seven .seven-title .title {
+      margin-top: 180px;
+      font-size: 36px;
+      margin-bottom: 10px; }
+    .section-seven .seven-title .commit {
+      font-size: 14px;
+      margin-bottom: 15px; }
+    .section-seven .price .money {
+      font-size: 30px;
+      line-height: 40px; }
+    .section-seven .price .money-commit {
+      font-size: 14px;
+      margin-bottom: 30px; }
+    .section-seven .buy .now {
+      font-size: 10px;
+      line-height: 15px; }
+    .section-seven .buy .btn {
+      width: 30%; }
+
+  footer .row .one {
+    align-items: center; }
+    footer .row .one .year {
+      font-size: 12px; }
+    footer .row .one .landing {
+      font-size: 20px; }
+  footer .row .two .footer-link a {
+    font-size: 12px;
+    margin-right: 20px; }
+  footer .row .two .social img {
+    margin-left: 20px; }
+  footer hr {
+    background-color: #091133;
+    height: 1px; } }
+@media (min-width: 800px) and (max-width: 1200px) {
+  body {
+    background-position: left right;
+    background-size: contain; }
+
+  .btn {
+    width: 20%;
+    font-size: 12px; }
+
+  .section-one .navbar {
+    align-items: center; }
+    .section-one .navbar .navbar-toggler {
+      box-shadow: none; }
+    .section-one .navbar .landingMobile {
+      display: block; }
+      .section-one .navbar .landingMobile h3 {
+        font-size: 20px; }
+    .section-one .navbar .navbar-collapse {
+      justify-content: space-between;
+      text-align: center; }
+      .section-one .navbar .navbar-collapse .navbar-nav {
+        margin-left: 50px;
+        gap: 15px; }
+      .section-one .navbar .navbar-collapse .landing {
+        display: none; }
+      .section-one .navbar .navbar-collapse .btn-nav {
+        width: 150px; }
+  .section-one .modal button {
+    padding: 4px 25px; }
+
+  header .row .col-xl-6 {
+    margin-bottom: 100px; }
+    header .row .col-xl-6 .left-side {
+      margin-top: 150px; }
+      header .row .col-xl-6 .left-side .title {
+        font-size: 40px; }
+      header .row .col-xl-6 .left-side .commit {
+        width: 60%;
+        font-size: 14px; }
+
+  .section-three {
+    margin-bottom: 150px;
+    text-align: center; }
+    .section-three .row .title {
+      margin-top: 50px;
+      font-size: 36px; }
+    .section-three .row .commit {
+      font-size: 14px; }
+    .section-three .row .here .one-here {
+      margin-right: 40px; }
+    .section-three .row .images img {
+      width: 60%; }
+
+  .section-four,
+  .section-five,
+  .section-six {
+    margin-bottom: 100px; }
+    .section-four .row,
+    .section-five .row,
+    .section-six .row {
+      text-align: center; }
+      .section-four .row .images img,
+      .section-five .row .images img,
+      .section-six .row .images img {
+        width: 50%; }
+      .section-four .row .title,
+      .section-five .row .title,
+      .section-six .row .title {
+        margin-top: 49px;
+        font-size: 36px; }
+      .section-four .row .commit,
+      .section-five .row .commit,
+      .section-six .row .commit {
+        font-size: 14px; }
+      .section-four .row .btn,
+      .section-five .row .btn,
+      .section-six .row .btn {
+        margin-top: 40px; }
+
+  .section-seven {
+    height: 75vh;
+    background-position: center 100px;
+    margin-top: 0px; }
+    .section-seven .seven-title .title {
+      margin-top: 190px;
+      font-size: 36px;
+      margin-bottom: 10px; }
+    .section-seven .seven-title .commit {
+      font-size: 14px;
+      margin-bottom: 15px; }
+    .section-seven .price .money {
+      font-size: 30px;
+      line-height: 40px; }
+    .section-seven .price .money-commit {
+      font-size: 14px;
+      margin-bottom: 30px; }
+    .section-seven .buy .now {
+      font-size: 10px;
+      line-height: 15px; }
+    .section-seven .buy .btn {
+      width: 30%; }
+
+  footer .row .one {
+    align-items: center; }
+    footer .row .one .year {
+      font-size: 12px; }
+    footer .row .one .landing {
+      font-size: 20px; }
+  footer .row .two .footer-link a {
+    font-size: 12px;
+    margin-right: 20px; }
+  footer .row .two .social img {
+    margin-left: 20px; }
+  footer hr {
+    background-color: #091133;
+    height: 1px; } }
+
+/*# sourceMappingURL=main.css.map */
